@@ -13,18 +13,24 @@
         .font-bebas{
             font-family:'Bebas Neue', sans-serif;
         }
-
     </style>
-
 
 </head>
 <body>
-    <header class="bg-amber-100 py-20 px-4 mid:px-32">
+    <header class="bg-amber-100 py-20 px-4 mid:px-32"> 
 
-        <nav>
+        <nav class="flex justify-between items-center mt-0 py-0">
+            <div class="w-96 h-auto">
+                <Img src="icons/logo.png" alt="">
+            </div>
 
+            <div class="font-bold p-4">
+                <a class="p-8" href="">Home</a>
+                <a class="p-8" href="">products</a>
+                <a class="p-8"href="">About Us</a>
+                <a class="p-8" href="">Contact Us</a>
+            </div>
         </nav>
-
 
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="space-y-3">
@@ -51,7 +57,7 @@
         <section>
             <h3 class="text-5xl font-bebas">Hosne Ara Jackets</h3>
 
-            <div class="grid grid-cols-3 gap-7 span-3font-bebas ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 span-3 font-bebas ">
                 <div>
                     <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
                         <img src="images/jacket-1.png"alt="">
@@ -108,7 +114,7 @@
         <section>
             <h3 class="text-5xl font-bebas">Suhel Jackets</h3>
 
-            <div class="grid grid-cols-3 gap-7 span-3font-bebas ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 span-3 font-bebas ">
                 <div>
                     <div class="bg-[#F1F1F1;] p-5 rounded-2xl">
                         <img src="images/jacket-4.png"alt="">
@@ -162,42 +168,38 @@
         </section>
 
         <section>
-            <Div  class="flex justify-between">
+            <Div class="flex justify-between items-center">
                 <div>
-                    <img src="icons/house.png"alt="">
-                    <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
-                    <p>Everybody is different, which is why we
-                        offer styles for every body.</p>
+                    <div class="bg-[#F1F1F1;] p-5 rounded-2xl m-2 w-96 h-auto">
+                        <img class="w-20 h-20" src="icons/house.png"alt="">
+                        <h4 class="text-2xl font-bold">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we <br>offer styles for every body.</p>
+                    </Div>
+    
+                    <div class="bg-[#F1F1F1;] p-5 rounded-2xl m-2 w-96 h-auto">
+                        <img class="w-20 h-20" src="icons/box.png"alt="">
+                        <h4 class="text-2xl font-bold">Free Exchanges</h4>
+                        <p>One of the many reasons you can shop <br>with peace of mind.</p>
+                    </Div>
+    
+                    <div class="bg-[#F1F1F1;] p-5 rounded-2xl m-2 w-96 h-auto">
+                        <img class="w-20 h-20" src="icons/question.png"alt="">
+                        <h4 class="text-2xl font-bold">Contact Our Seller</h4>
+                        <p>They are here to help you. That's quite <br>literally what we pay them for..</p>
+                    </div>
                 </div>
 
-                <div>
-                    <img src="icons/box.png"alt="">
-                    <h4 class="text-2xl font-bold">Free Exchanges</h4>
-                    <p>One of the many reasons you can shop
-                        with peace of mind.</p>
-                </div>
-
-                <div>
-                    <img src="icons/question.png"alt="">
-                    <h4 class="text-2xl font-bold">Contact Our Seller</h4>
-                    <p>They are here to help you. That's quite 
-                        literally what we pay them for..</p>
-                </div>
-
+                <div class="mt-4  px-16">
+                    <img src="images/shopping.png"alt="">
+    
+                </div> 
             </Div>
-
-            <div>
-                <img src="images/shopping.png"alt="">
-
-            </div>
-
         </section>
-
-
     </Main>
 
     <footer>
 
+        <h3 class="p-12 m-4 text-right">Copy right@ Suhel Ahmed</h3>
 
     </footer>
     
